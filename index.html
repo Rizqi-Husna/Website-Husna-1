@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Huzna's Blog </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #6b7db3;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+  background-color: #666;
+  color: white;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  float: left;
+  background-color: #666;
+  color: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 850px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Footer */
+.footer {
+  padding: 2px;
+  text-align: center;
+  background: #6b7db3;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Tour and Travel</h1>
+  <p>A <b> Hope You Can Enjoyed </b></p>
+</div>
+
+<div class="navbar">
+  <a href="index.html" class="active">Home</a>
+  <a href="abtme.php" class="right"> About Me </a>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#ccd9ff;"> 
+    <center><h2> Tanjung Benoa <br>(2019)</br> </h2></center>
+    <center><img src="img/IMG_0528.jpg" width="300">
+      <p>Tanjung Benoa berada pada Kabupaten Badung, Bali. Pertama kali kesini, membuat saya merasakan segarnya daerah wisata yang berada di tengah kota. Perjalanan kurang lebih 30 menit dari Hotel. Saya juga tidak lupa untuk mengunjungi Pulau Penyu.</p>
+      <img src="img/IMG_0559.jpg" width="300">
+      <p>Butuh waktu sekitar 30 menit kesana dengan menggunakan perahu boat. Perairan Laut sedikit dangkal, jadi saya bisa melihat ikan kecil-kecil yang ada disana. Banyak kapal-kapal yang ditinggalkan begitu saja di perairan, entah karena apa saya juga tidak bertanya. Kalau kesini apalagi saat terik dan kemarau diharap membawa topi maupun memakai sunscreen karena panasnya ultraviolet.</p>
+    </center>
+  </div>
+  <div class="column" style="background-color:#e6ecff;">
+    <center><h2> Telaga Ngebel <br>(2021)</br> </h2></center>
+    <center><img src="img/IMG_0004.jpeg" width="300">
+      <p>Telaga Ngebel berada pada Kabupaten Ponorogo, Jawa Timur. Jarak tempuh menggunakan motor kurang-lebih 45 menit dari rumah saya. Disini sejuk sekali karena ya memang telaga berada ditengah (dikelilingi) oleh gunung-gunung. Banyak sekali warung-warung maupun tempat penginapan yang ada disini. Menu yang menjadi highlight disini yaitu ikan bakar dan saya yakin rasanya sangat nikmat.</p>
+      <img src="img/IMG_0002.jpeg" width="300">
+      <p>Sebelum sampai ke Telaga Ngebel, para pengunjung pasti melewati sebuah PLTA yang berada di Desa Wagir Lor. Banyak sekali pengunjung yang berhenti sejenak untuk menikmati dinginnya udara disambi dengan suara air dari PLTA. Dapat juga berfoto-foto untuk bisa dijadikan kenangan.</p>
+    </center>
+  </div>
+  <div class="column" style="background-color:#ccd9ff;">
+    <center><h2> Pantai Damas <br>(2019)</br> </h2></center>
+    <center><img src="img/IMG_0001.jpeg" width="300">
+      <p>Pantai Damas berada pada Kabupaten Trenggalek, Jawa Timur. Jarak tempuh bisa menghabiskan 3 jam dari kota saya. Disini masih dibilang natural sekali tempatnya. Pantainya juga tidak panas, dan tidak ada sampah. Tempatnya sangat sejuk untuk ukuran pantai. Karena, kemungkinan pantai ini belum terjamah manusia, jadi saat tiba dilokasi memang tidak banyak pengunjung. Jalanannya pun juga mulus, melewati perbukitan, gunung, lalu persawahan dan rumah-rumah penduduk.</p>
+      <img src="img/IMG_003.jpeg" width="300">
+      <p>Ombak laut juga tidak terlalu besar, maka dari itu kalau mau main agak ketengah pantai masih bagus tapi jangan lupa untuk hati-hati. Kalau kesini lebih baik bawa bekal sendiri, karena masih belum banyak warung-warung yang ada dipinggiran pantai. Terdapat banyak sekali gazebo yang bisa digunakan untuk duduk sejenak, maupun istirahat untuk menikmati keindahan pantai.</p>
+    </center>
+  </div>
+</div>
+  
+  </div>
+</div>
+
+<div class="footer">
+  <h2>2022</h2>
+</div>
+
+</body>
+</html>
